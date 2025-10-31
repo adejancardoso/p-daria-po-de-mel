@@ -3,7 +3,7 @@ const urlsToCache = [
   '/',
   '/index.html',
   '/style.css',
-  '/script.js',
+  '/script.v2.js',
   '/manifest.json',
   // Imagens principais
   '/logo/LOGO PDM NOVA SEM BACKGROUND.jpg',
