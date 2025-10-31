@@ -83,7 +83,6 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.insertAdjacentHTML('beforeend', instructions);
     }
 
-    /*
     // Swiper initialization
     const swiper = new Swiper('.swiper', {
         loop: true,
@@ -106,7 +105,6 @@ document.addEventListener('DOMContentLoaded', function() {
             1024: { slidesPerView: 3, spaceBetween: 10 }
         }
     });
-    */
 
     // Back to top button
     const backToTopBtn = document.getElementById("back-to-top-btn");
