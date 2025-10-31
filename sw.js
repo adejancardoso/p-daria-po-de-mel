@@ -1,7 +1,7 @@
 const CACHE_NAME = 'pao-de-mel-v1.0.0';
 const urlsToCache = [
   '/',
-  '/pão-de-mel.html',
+  '/index.html',
   '/style.css',
   '/script.js',
   '/manifest.json',
@@ -78,7 +78,7 @@ self.addEventListener('fetch', (event) => {
         }).catch(() => {
           // Se falhar, retorna página offline se for uma navegação
           if (event.request.destination === 'document') {
-            return caches.match('/pão-de-mel.html');
+            return caches.match('/index.html');
           }
         });
       })
