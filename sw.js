@@ -5,15 +5,7 @@ const urlsToCache = [
   '/style.css',
   '/script.js',
   '/manifest.json',
-  // Imagens principais
-  '/logo/LOGO PDM NOVA SEM BACKGROUND.jpg',
-  '/favicon_io/favicon.ico',
-  // CSS e JS externos
-  'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css',
-  'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css',
-  'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css',
-  'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Courgette&family=Lora:ital,wght@0,400..700;1,400..700&display=swap',
-  'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js'
+  '/favicon_io/favicon.ico'
 ];
 
 // Instalação do Service Worker
